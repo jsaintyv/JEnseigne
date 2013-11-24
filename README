@@ -1,0 +1,12 @@
+JEnseigne 
+JEnseigne a pour objectif de faire découvrir l'alphabet et les mots à mes enfants. L'application utilise les capacités de synthèses vocales d'Android (Si celle-ci ne fonctionne pas, vous pouvez l'installer via Paramètres -> Saisie et sortie vocales)
+
+Il y a actuellement 4 jeux.
+- Dessiner les lettres en suivant un point rouge.
+- Enseigner la première lettre des mots
+- Tapez le plus de mots possible en 60 secondes.
+- Méli-mélo de mots.
+Note:Si vous n'avez pas la synthèse vocale. Vous devez aller dans "Paramètre -> Saisie et sortie vocales" pour l'installer.
+
+Disponible: https://play.google.com/store/apps/details?id=org.jenseigne&hl=en
+Le code est sous licence GPLv3.
