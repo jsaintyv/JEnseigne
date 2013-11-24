@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/dialogLayout" 
+    >
+<TextView android:text="@string/Quelest" android:id="@+id/question" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+<ImageView android:id="@+id/ImageMot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="100px" android:minHeight="20px" ></ImageView>
+</LinearLayout>
+

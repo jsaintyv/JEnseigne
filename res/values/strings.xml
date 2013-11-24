@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">JEnseigne</string>
+
+
+<string name="Quelest">Quel est la première lettre ...</string>
+<color name="limage">#D0D0D0</color>
+<string name="titre">JEnseigne</string>
+<string name="premiereLettre">Les premières lettres</string>
+<string name="courseAuxMots">La course aux mots</string>
+<string name="rejouer">Rejouer</string>
+<string name="retour">retour</string>
+<string name="perdu">Perdu !</string>
+<string name="melimeloDeMots">Méli-mélo de mots</string>
+
+<string name="Ok">Ok</string>
+<string name="score">Score</string>
+<string name="dessineLesLettres">Dessine les lettres</string>
+<string name="A">A</string>
+<string name="B">B</string>
+<string name="C">C</string>
+<string name="D">D</string>
+<string name="E">E</string>
+<string name="F">F</string>
+<string name="G">G</string>
+<string name="H">H</string>
+<string name="I">I</string>
+<string name="J">J</string>
+<string name="K">K</string>
+<string name="L">L</string>
+<string name="M">M</string>
+<string name="N">N</string>
+<string name="O">O</string>
+<string name="P">P</string>
+<string name="Q">Q</string>
+<string name="R">R</string>
+<string name="S">S</string>
+<string name="T">T</string>
+<string name="U">U</string>
+<string name="V">V</string>
+<string name="W">W</string>
+<string name="X">X</string>
+<string name="Y">Y</string>
+<string name="Z">Z</string>
+</resources>

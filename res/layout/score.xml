@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dialogLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+    
+<TextView android:text="@string/score" android:id="@+id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16px" android:layout_gravity="center_horizontal"></TextView>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur1" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore1" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur2" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore2" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur3" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore3" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur4" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore4" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur5" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore5" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur6" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore6" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur7" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore7" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur8" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore8" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur9" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore9" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >    
+<TextView android:text="joueur" android:id="@+id/tvJoueur10" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+<TextView android:text="score" android:id="@+id/tvScore10" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></TextView>
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >    
+<Button android:text="@string/rejouer" android:id="@+id/btRejouer" android:layout_width="fill_parent" android:layout_weight="1"  android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></Button>
+<Button android:text="@string/retour" android:id="@+id/btRetour" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="15px"></Button>
+</LinearLayout>
+</LinearLayout>
+

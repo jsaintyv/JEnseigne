@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<ScrollView android:id="@+id/rollMenuButtonContainer"
+    		android:layout_width="fill_parent"
+            android:layout_height="fill_parent"            
+            >    
+
+        <LinearLayout android:id="@+id/menuButtonContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="insideOverlay" >
+
+            <Button
+                android:id="@+id/btDessineLesLettres"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="onClickDevDessineLesLettres"
+                android:text="@string/dessineLesLettres"
+                android:textSize="20px" >
+            </Button>
+
+            <Button
+                android:id="@+id/btPremiereLettre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="onClickPremiereLettre"
+                android:text="@string/premiereLettre"
+                android:textSize="20px" >
+            </Button>
+
+            <Button
+                android:id="@+id/btCourseAuxMots"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="onClickCourseAuxMots"
+                android:text="@string/courseAuxMots"
+                android:textSize="20px" >
+            </Button>
+
+            <Button
+                android:id="@+id/btMelimeloDeMots"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="onClickMelimeloDeMots"
+                android:text="@string/melimeloDeMots"
+                android:textSize="20px" >
+            </Button>
+        </LinearLayout>    
+</ScrollView>
+    
+
+</RelativeLayout>

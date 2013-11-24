@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dialogLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+    
+<TextView android:text="@string/perdu" android:id="@+id/lblPerdu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16px"></TextView>    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >    
+<Button android:text="@string/rejouer" android:id="@+id/btRejouer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="12px"></Button>
+<Button android:text="@string/retour" android:id="@+id/btRetour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="12px"></Button>
+</LinearLayout>
+</LinearLayout>
+
