@@ -1,0 +1,150 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* genimage/
+* genimage/cent.png
+* genimage/cinq.png
+* genimage/cinquante.png
+* genimage/deux.png
+* genimage/dix.png
+* genimage/douze.png
+* genimage/gennombre.sh
+* genimage/huit.png
+* genimage/mille.png
+* genimage/million.png
+* genimage/neuf.png
+* genimage/onze.png
+* genimage/quarante.png
+* genimage/quatorze.png
+* genimage/quatre.png
+* genimage/quinze.png
+* genimage/seize.png
+* genimage/sept.png
+* genimage/six.png
+* genimage/soixante.png
+* genimage/treize.png
+* genimage/trente.png
+* genimage/trois.png
+* genimage/un.png
+* genimage/vingt.png
+* icon-hdmi.png
+* proguard.cfg
+* screenshot/
+* screenshot/arbre.png
+* screenshot/cle.png
+* screenshot/correction.png
+* screenshot/course_aux_mots.png
+* screenshot/marteau.png
+* screenshot/melimelo.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/org/jenseigne/dictionnaire/res/arbre.png => app/src/main/resources/org/jenseigne/dictionnaire/res/arbre.png
+* src/org/jenseigne/dictionnaire/res/arc.png => app/src/main/resources/org/jenseigne/dictionnaire/res/arc.png
+* src/org/jenseigne/dictionnaire/res/balai.png => app/src/main/resources/org/jenseigne/dictionnaire/res/balai.png
+* src/org/jenseigne/dictionnaire/res/bateau.png => app/src/main/resources/org/jenseigne/dictionnaire/res/bateau.png
+* src/org/jenseigne/dictionnaire/res/cent.png => app/src/main/resources/org/jenseigne/dictionnaire/res/cent.png
+* src/org/jenseigne/dictionnaire/res/cerise.png => app/src/main/resources/org/jenseigne/dictionnaire/res/cerise.png
+* src/org/jenseigne/dictionnaire/res/chaise.png => app/src/main/resources/org/jenseigne/dictionnaire/res/chaise.png
+* src/org/jenseigne/dictionnaire/res/chat.png => app/src/main/resources/org/jenseigne/dictionnaire/res/chat.png
+* src/org/jenseigne/dictionnaire/res/chien.png => app/src/main/resources/org/jenseigne/dictionnaire/res/chien.png
+* src/org/jenseigne/dictionnaire/res/cinq.png => app/src/main/resources/org/jenseigne/dictionnaire/res/cinq.png
+* src/org/jenseigne/dictionnaire/res/cinquante.png => app/src/main/resources/org/jenseigne/dictionnaire/res/cinquante.png
+* src/org/jenseigne/dictionnaire/res/citron.png => app/src/main/resources/org/jenseigne/dictionnaire/res/citron.png
+* src/org/jenseigne/dictionnaire/res/cle.png => app/src/main/resources/org/jenseigne/dictionnaire/res/cle.png
+* src/org/jenseigne/dictionnaire/res/coccinelle.png => app/src/main/resources/org/jenseigne/dictionnaire/res/coccinelle.png
+* src/org/jenseigne/dictionnaire/res/coeur.png => app/src/main/resources/org/jenseigne/dictionnaire/res/coeur.png
+* src/org/jenseigne/dictionnaire/res/couteau.png => app/src/main/resources/org/jenseigne/dictionnaire/res/couteau.png
+* src/org/jenseigne/dictionnaire/res/dauphin.png => app/src/main/resources/org/jenseigne/dictionnaire/res/dauphin.png
+* src/org/jenseigne/dictionnaire/res/deux.png => app/src/main/resources/org/jenseigne/dictionnaire/res/deux.png
+* src/org/jenseigne/dictionnaire/res/dix.png => app/src/main/resources/org/jenseigne/dictionnaire/res/dix.png
+* src/org/jenseigne/dictionnaire/res/douze.png => app/src/main/resources/org/jenseigne/dictionnaire/res/douze.png
+* src/org/jenseigne/dictionnaire/res/drapeau.png => app/src/main/resources/org/jenseigne/dictionnaire/res/drapeau.png
+* src/org/jenseigne/dictionnaire/res/elephant.png => app/src/main/resources/org/jenseigne/dictionnaire/res/elephant.png
+* src/org/jenseigne/dictionnaire/res/etoile.png => app/src/main/resources/org/jenseigne/dictionnaire/res/etoile.png
+* src/org/jenseigne/dictionnaire/res/fleur.png => app/src/main/resources/org/jenseigne/dictionnaire/res/fleur.png
+* src/org/jenseigne/dictionnaire/res/fourchette.png => app/src/main/resources/org/jenseigne/dictionnaire/res/fourchette.png
+* src/org/jenseigne/dictionnaire/res/fourmie.png => app/src/main/resources/org/jenseigne/dictionnaire/res/fourmie.png
+* src/org/jenseigne/dictionnaire/res/fraise.png => app/src/main/resources/org/jenseigne/dictionnaire/res/fraise.png
+* src/org/jenseigne/dictionnaire/res/gorille.png => app/src/main/resources/org/jenseigne/dictionnaire/res/gorille.png
+* src/org/jenseigne/dictionnaire/res/grenouille.png => app/src/main/resources/org/jenseigne/dictionnaire/res/grenouille.png
+* src/org/jenseigne/dictionnaire/res/hippopotame.png => app/src/main/resources/org/jenseigne/dictionnaire/res/hippopotame.png
+* src/org/jenseigne/dictionnaire/res/huit.png => app/src/main/resources/org/jenseigne/dictionnaire/res/huit.png
+* src/org/jenseigne/dictionnaire/res/ile.png => app/src/main/resources/org/jenseigne/dictionnaire/res/ile.png
+* src/org/jenseigne/dictionnaire/res/jambon.png => app/src/main/resources/org/jenseigne/dictionnaire/res/jambon.png
+* src/org/jenseigne/dictionnaire/res/kangourou.png => app/src/main/resources/org/jenseigne/dictionnaire/res/kangourou.png
+* src/org/jenseigne/dictionnaire/res/lion.png => app/src/main/resources/org/jenseigne/dictionnaire/res/lion.png
+* src/org/jenseigne/dictionnaire/res/lune.png => app/src/main/resources/org/jenseigne/dictionnaire/res/lune.png
+* src/org/jenseigne/dictionnaire/res/marteau.png => app/src/main/resources/org/jenseigne/dictionnaire/res/marteau.png
+* src/org/jenseigne/dictionnaire/res/meduse.png => app/src/main/resources/org/jenseigne/dictionnaire/res/meduse.png
+* src/org/jenseigne/dictionnaire/res/mille.png => app/src/main/resources/org/jenseigne/dictionnaire/res/mille.png
+* src/org/jenseigne/dictionnaire/res/million.png => app/src/main/resources/org/jenseigne/dictionnaire/res/million.png
+* src/org/jenseigne/dictionnaire/res/neuf.png => app/src/main/resources/org/jenseigne/dictionnaire/res/neuf.png
+* src/org/jenseigne/dictionnaire/res/nid.jpg => app/src/main/resources/org/jenseigne/dictionnaire/res/nid.jpg
+* src/org/jenseigne/dictionnaire/res/oiseau.png => app/src/main/resources/org/jenseigne/dictionnaire/res/oiseau.png
+* src/org/jenseigne/dictionnaire/res/onze.png => app/src/main/resources/org/jenseigne/dictionnaire/res/onze.png
+* src/org/jenseigne/dictionnaire/res/ours.png => app/src/main/resources/org/jenseigne/dictionnaire/res/ours.png
+* src/org/jenseigne/dictionnaire/res/pappillon.png => app/src/main/resources/org/jenseigne/dictionnaire/res/pappillon.png
+* src/org/jenseigne/dictionnaire/res/pingouin.png => app/src/main/resources/org/jenseigne/dictionnaire/res/pingouin.png
+* src/org/jenseigne/dictionnaire/res/poire.png => app/src/main/resources/org/jenseigne/dictionnaire/res/poire.png
+* src/org/jenseigne/dictionnaire/res/poisson.png => app/src/main/resources/org/jenseigne/dictionnaire/res/poisson.png
+* src/org/jenseigne/dictionnaire/res/pomme.png => app/src/main/resources/org/jenseigne/dictionnaire/res/pomme.png
+* src/org/jenseigne/dictionnaire/res/porte.png => app/src/main/resources/org/jenseigne/dictionnaire/res/porte.png
+* src/org/jenseigne/dictionnaire/res/quarante.png => app/src/main/resources/org/jenseigne/dictionnaire/res/quarante.png
+* src/org/jenseigne/dictionnaire/res/quatorze.png => app/src/main/resources/org/jenseigne/dictionnaire/res/quatorze.png
+* src/org/jenseigne/dictionnaire/res/quatre.png => app/src/main/resources/org/jenseigne/dictionnaire/res/quatre.png
+* src/org/jenseigne/dictionnaire/res/quille.png => app/src/main/resources/org/jenseigne/dictionnaire/res/quille.png
+* src/org/jenseigne/dictionnaire/res/quinze.png => app/src/main/resources/org/jenseigne/dictionnaire/res/quinze.png
+* src/org/jenseigne/dictionnaire/res/raisin.png => app/src/main/resources/org/jenseigne/dictionnaire/res/raisin.png
+* src/org/jenseigne/dictionnaire/res/requin.png => app/src/main/resources/org/jenseigne/dictionnaire/res/requin.png
+* src/org/jenseigne/dictionnaire/res/rhino.png => app/src/main/resources/org/jenseigne/dictionnaire/res/rhino.png
+* src/org/jenseigne/dictionnaire/res/rose.png => app/src/main/resources/org/jenseigne/dictionnaire/res/rose.png
+* src/org/jenseigne/dictionnaire/res/seize.png => app/src/main/resources/org/jenseigne/dictionnaire/res/seize.png
+* src/org/jenseigne/dictionnaire/res/sept.png => app/src/main/resources/org/jenseigne/dictionnaire/res/sept.png
+* src/org/jenseigne/dictionnaire/res/serpent.png => app/src/main/resources/org/jenseigne/dictionnaire/res/serpent.png
+* src/org/jenseigne/dictionnaire/res/six.png => app/src/main/resources/org/jenseigne/dictionnaire/res/six.png
+* src/org/jenseigne/dictionnaire/res/soixante.png => app/src/main/resources/org/jenseigne/dictionnaire/res/soixante.png
+* src/org/jenseigne/dictionnaire/res/table.jpeg => app/src/main/resources/org/jenseigne/dictionnaire/res/table.jpeg
+* src/org/jenseigne/dictionnaire/res/television.png => app/src/main/resources/org/jenseigne/dictionnaire/res/television.png
+* src/org/jenseigne/dictionnaire/res/treize.png => app/src/main/resources/org/jenseigne/dictionnaire/res/treize.png
+* src/org/jenseigne/dictionnaire/res/trente.png => app/src/main/resources/org/jenseigne/dictionnaire/res/trente.png
+* src/org/jenseigne/dictionnaire/res/trois.png => app/src/main/resources/org/jenseigne/dictionnaire/res/trois.png
+* src/org/jenseigne/dictionnaire/res/un.png => app/src/main/resources/org/jenseigne/dictionnaire/res/un.png
+* src/org/jenseigne/dictionnaire/res/usine.png => app/src/main/resources/org/jenseigne/dictionnaire/res/usine.png
+* src/org/jenseigne/dictionnaire/res/vache.png => app/src/main/resources/org/jenseigne/dictionnaire/res/vache.png
+* src/org/jenseigne/dictionnaire/res/vingt.png => app/src/main/resources/org/jenseigne/dictionnaire/res/vingt.png
+* src/org/jenseigne/dictionnaire/res/vis.png => app/src/main/resources/org/jenseigne/dictionnaire/res/vis.png
+* src/org/jenseigne/dictionnaire/res/wagon.jpg => app/src/main/resources/org/jenseigne/dictionnaire/res/wagon.jpg
+* src/org/jenseigne/dictionnaire/res/xylophone.png => app/src/main/resources/org/jenseigne/dictionnaire/res/xylophone.png
+* src/org/jenseigne/dictionnaire/res/yaourt.jpeg => app/src/main/resources/org/jenseigne/dictionnaire/res/yaourt.jpeg
+* src/org/jenseigne/dictionnaire/res/zebre.png => app/src/main/resources/org/jenseigne/dictionnaire/res/zebre.png
+* src/org/jenseigne/res/background-accueil.png => app/src/main/resources/org/jenseigne/res/background-accueil.png
+* src/org/jenseigne/res/background.png => app/src/main/resources/org/jenseigne/res/background.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
